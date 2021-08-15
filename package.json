@@ -1,0 +1,27 @@
+{
+  "name": "ranker",
+  "version": "1.0.0",
+  "description": "A package to manage clubs at Hack Club APAC Leaderboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajpai244/ranker.git"
+  },
+  "keywords": [
+    "Hack",
+    "Club",
+    "Hack",
+    "Club",
+    "APAC",
+    "Leaderboard"
+  ],
+  "author": "Harsh Bajpai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bajpai244/ranker/issues"
+  },
+  "homepage": "https://github.com/bajpai244/ranker#readme"
+}
