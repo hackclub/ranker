@@ -32,5 +32,8 @@
     "dotenv": "^10.0.0",
     "firebase": "^8.9.1",
     "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "tape": "^5.3.1"
   }
 }
