@@ -6,7 +6,10 @@ const { App } = require("@slack/bolt");
 const { WebClient, LogLevel } = require("@slack/web-api");
 
 const { who_am_i, change_logo, change_desc } = require("../lib/commands/index");
-const { change_logo_view_1 } = require("../lib/events/index");
+const {
+  change_logo_view_1,
+  change_desc_view_1,
+} = require("../lib/events/index");
 
 const oauth_token = process.env.OAUTH_TOKEN;
 const app_token = process.env.APP_TOKEN;
@@ -31,3 +34,4 @@ app.command("/change-logo", change_logo);
 app.command("/change-description", change_desc);
 
 app.view("change_logo_view_1", change_logo_view_1);
+app.view("change_desc_view_1", change_desc_view_1);
