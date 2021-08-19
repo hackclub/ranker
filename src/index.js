@@ -19,6 +19,7 @@ const {
   change_cover_view_1,
   add_member_view_1,
   remove_members_view_1,
+  on_message,
 } = require("../lib/events/index");
 
 const oauth_token = process.env.OAUTH_TOKEN;
@@ -51,3 +52,5 @@ app.view("change_desc_view_1", change_desc_view_1);
 app.view("change_cover_view_1", change_cover_view_1);
 app.view("add_member_view_1", add_member_view_1);
 app.view("remove_members_view_1", remove_members_view_1);
+
+app.message("", on_message);
