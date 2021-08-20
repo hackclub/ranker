@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "pm2start": "npx pm2 kill -a && npx pm2 start src/index.js && npx pm2 start lib/firebase/listener.js",
+    "build": "npx pm2 kill -a && npx pm2 start src/index.js && npx pm2 start lib/firebase/listener.js",
+    "stop": "npx pm2 kill -a",
+    "dev": "nodemon src/index"
   },
   "repository": {
     "type": "git",
@@ -29,8 +32,10 @@
   "dependencies": {
     "@slack/bolt": "^3.5.0",
     "@slack/web-api": "^6.3.0",
+    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "firebase": "^8.9.1",
+    "lodash": "^4.17.21",
     "ramda": "^0.27.1"
   },
   "devDependencies": {
