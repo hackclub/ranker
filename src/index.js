@@ -5,6 +5,8 @@ require("dotenv").config();
 const { App } = require("@slack/bolt");
 const { WebClient, LogLevel } = require("@slack/web-api");
 
+require("../lib/firebase/listener");
+
 const {
   who_am_i,
   change_logo,

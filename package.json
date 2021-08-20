@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx pm2 kill -a && npx pm2 start src/index.js && npx pm2 start lib/firebase/listener.js",
+    "start": "node src/index.js",
     "pm2start": "npx pm2 kill -a && npx pm2 start src/index.js && npx pm2 start lib/firebase/listener.js",
     "build": "echo \"no build process is required \"",
     "stop": "npx pm2 kill -a",
