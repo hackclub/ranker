@@ -9,7 +9,8 @@
     "pm2start": "npx pm2 kill -a && npx pm2 start src/index.js && npx pm2 start lib/firebase/listener.js",
     "build": "echo \"no build process is required \"",
     "stop": "npx pm2 kill -a",
-    "dev": "nodemon src/index"
+    "dev": "nodemon src/index",
+    "deploy": "node scripts/deploy.js"
   },
   "repository": {
     "type": "git",

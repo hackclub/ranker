@@ -51,6 +51,7 @@ app.command("/change-cover", change_cover);
 app.command("/add-member", add_member);
 app.command("/remove-members", remove_members);
 app.command("/add_post", add_post);
+app.command("/add-linkedin", add_post);
 
 app.view("change_logo_view_1", change_logo_view_1);
 app.view("change_desc_view_1", change_desc_view_1);
