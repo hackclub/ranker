@@ -15,6 +15,7 @@ const {
   add_member,
   remove_members,
   add_post,
+  add_social,
 } = require("../lib/commands/index");
 const {
   change_logo_view_1,
@@ -24,6 +25,7 @@ const {
   remove_members_view_1,
   on_message,
   add_post_view_1,
+  add_social_view_1,
 } = require("../lib/events/index");
 
 const oauth_token = process.env.OAUTH_TOKEN;
@@ -51,7 +53,10 @@ app.command("/change-cover", change_cover);
 app.command("/add-member", add_member);
 app.command("/remove-members", remove_members);
 app.command("/add_post", add_post);
-app.command("/add-linkedin", add_post);
+app.command("/add-linkedin", add_social);
+app.command("/add-twitter", add_social);
+app.command("/add-github", add_social);
+app.command("/add-instagram", add_social);
 
 app.view("change_logo_view_1", change_logo_view_1);
 app.view("change_desc_view_1", change_desc_view_1);
@@ -59,5 +64,6 @@ app.view("change_cover_view_1", change_cover_view_1);
 app.view("add_member_view_1", add_member_view_1);
 app.view("remove_members_view_1", remove_members_view_1);
 app.view("add_post_view_1", add_post_view_1);
+app.view("add_social_view_1", add_social_view_1);
 
 app.message("", on_message);
