@@ -57,6 +57,7 @@ app.command("/add-linkedin", add_social);
 app.command("/add-twitter", add_social);
 app.command("/add-github", add_social);
 app.command("/add-instagram", add_social);
+app.command("/add-website", add_social);
 
 app.view("change_logo_view_1", change_logo_view_1);
 app.view("change_desc_view_1", change_desc_view_1);
