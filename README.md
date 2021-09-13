@@ -10,7 +10,7 @@ This is the slack infrastructure of the directory, deployed at [https://apacdire
 
 To know the project better, please read the documentation from [here.](https://app.gitbook.com/@bajpaiharsh244/s/apac-directory)
 
-<img src="https://raw.githubusercontent.com/bajpai244/indiablogfilehosting/main/files/Screenshot%202021-08-20%20at%207.26.01%20PM.png" alt="image" width="500px" />
+<img src="https://cloud-7jihrwgbn-hack-club-bot.vercel.app/0image.png" alt="image" width="500px" />
 
 ## Meet Ranker
 
@@ -24,7 +24,7 @@ Ranker is the bot service that powers our slack infrastructure to maintain this 
 
 The Directory acts as a place to explore Hack Clubs in the APAC region and explore the amazing work being done by them in the Hack Club circle.
 
-![directory image](https://cloud-kut3a9gjm-hack-club-bot.vercel.app/0image.png)
+![directory image](https://cloud-82lkrqpe8-hack-club-bot.vercel.app/0image.png)
 
 The Directory is a real-time platform where hack clubs are given:
 
